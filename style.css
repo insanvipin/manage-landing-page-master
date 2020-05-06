@@ -1,0 +1,623 @@
+
+.background
+{
+    width: 800px;
+    height: 350px;
+    border-radius: 200px;
+    display: block;
+    position: absolute;
+    background-color: tomato;
+    filter:opacity(30%);
+    transform: rotate(-45deg);
+    right: -8%;
+    top: -1%;
+}
+
+.background_a
+{
+    width: 500px;
+    height: 350px;
+    border-radius: 200px;
+    display: block;
+    position: absolute;
+    background-color: tomato;
+    filter:opacity(30%);
+    transform: rotate(135deg);
+    left: -20%;
+    top: 140%
+}
+
+
+
+.button_a 
+    {
+    background-color: hsl(12, 88%, 59%);
+    color: white;
+    box-shadow: 0px 2px 5px 0px hsl(12, 88%, 59%);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 80px;
+    width: auto;
+    border: none;
+    margin-right: 2em;
+    }
+    
+.button_b 
+    {
+    background-color:hsl(12, 88%, 59%);
+    color: white;
+    box-shadow: 0px 2px 5px 0px hsl(12, 88%, 59%);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 80px;
+    width: auto;
+    border: none;
+    margin-left: 14em;
+    margin-top: 0.5em;
+    }
+
+    .button_c 
+    {
+    background-color:hsl(12, 88%, 59%);
+    color: white;
+    box-shadow: 0px 2px 5px 0px hsl(12, 88%, 59%);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 80px;
+    width: auto;
+    border: none;
+    margin-top: 0.5em;
+    }
+    
+    .button_d 
+    {
+    background-color: white;
+    color:hsl(12, 88%, 59%);
+    box-shadow: 0px 2px 5px 0px white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 80px;
+    width: auto;
+    border: none;
+    }
+
+.button_a:hover, .button_b:hover, .button_c:hover, .button_d:hover 
+{
+    background-color: hsl(12, 100%, 70%);  
+    color: white; 
+} 
+
+.smicon
+{
+    margin-left: 3px;
+    margin-right: 3px;
+
+}
+
+.smicon:hover
+{
+    filter: invert(57%) sepia(46%) saturate(4836%) hue-rotate(332deg) brightness(102%) contrast(101%);
+
+}
+
+
+a.button_d:hover
+{
+    text-decoration: none;
+
+}
+
+a
+{
+   color: whitesmoke;
+}
+
+a:hover
+
+{
+    color: #ff6347;
+}
+.logo
+{
+    filter: invert(100%) sepia(99%) saturate(0%) hue-rotate(168deg) brightness(104%) contrast(101%);
+}
+
+input[type=text], [type=email], [type=password]
+        {
+           width: 75%;
+           box-sizing: border-box;
+            border-radius: 15px;
+            border-style: solid; 
+            border-color: rgb(216, 216, 216);   
+            padding-top: 5px;
+            padding-bottom: 5px;       
+        }
+  input[type=submit]
+   {
+            width: auto;
+            box-sizing: border-box;
+            border-radius: 15px;
+            background-color: tomato;  
+            font-size:16px;
+            border-style: none;
+            color: white;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 5px;
+            padding-bottom: 5px; 
+   }   
+   
+   input::placeholder
+
+   {
+       margin-left: 5px;
+       color: tomato;
+   }
+   
+   form
+   {
+       display: inline-block;
+       position:relative;
+   }
+
+a:hover
+{
+   text-decoration: none;  
+} 
+
+  h1
+    {
+        margin-left: 5em;
+        margin-right:3em;
+    }  
+
+  h2
+    {
+        margin-left: 6em;
+        margin-right:3em;
+        float: top;
+    }  
+
+    h2.a 
+    {
+        margin-left: auto;
+        margin-right:auto;
+    }
+   
+ p.thead 
+    {
+        margin-left: 12.5em;
+        margin-bottom: 3em;
+        margin-right: 9em;
+        color: grey;
+    }  
+ p.a 
+    {
+        margin-left: 6.6em;
+        margin-bottom: 3em;
+        margin-right: 9em;
+        color: grey;
+    }   
+   
+ p.b 
+    {
+        margin-left: 12em;
+        margin-bottom: 3em;
+        margin-right: 9em;
+        color: grey;
+    }   
+
+p.c 
+    {
+        margin-left: auto;
+        margin-bottom: 2em;
+        margin-top: 2em;
+        margin-right: auto;
+        color: grey;
+    } 
+ h5
+ {
+     margin-left: 12.5em;
+     margin-right: 10em;
+     font-size: 1em;
+     color: grey;
+ }
+
+ h5.a
+ {
+     margin-left: 12em;
+     margin-right: 7.5em;
+     font-size: 1em;
+     color: grey;
+     
+     line-height: 1.5em;
+ }
+
+ h4 {
+    padding-top: 0.2em;
+    padding-bottom: 0.2em; 
+    }
+ span.a 
+
+ {
+     margin-right: 1em;
+     padding-left: 1em;
+     padding-right: 1em;
+     padding-top: 0.1em;
+     padding-bottom: 0.1em;
+     background-color: hsl(12, 88%, 59%);
+     border-radius: 20px;
+     color: white;
+     font-size: 1em;
+ }
+
+ div.a 
+ {
+     top: -9em;
+     display: inline-block;
+     position: relative;
+ }
+
+ div.bottom
+ {
+     background-color:hsl(12, 88%, 59%) ;
+     padding-top: 1.5em;
+     padding-bottom: 1.5em;
+     color: white;
+ }
+
+ @media screen and (max-width:375px)
+ 
+ {
+
+
+.mlogo
+{
+    width: 100px;
+    margin-right: 0px;
+}    
+
+
+ .navbar-toggler
+ {
+    padding: 2px 4px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 1em;
+    
+ }
+
+ .navbar-toggler.icon 
+ {
+     right: 1%;
+ }
+
+ .button
+ {
+     right: 1%;
+ }
+
+  #mainimage 
+    {
+        width: 230px;
+    }
+
+    
+      
+    .background
+    {
+        width: 500px;
+        height: 225px;
+        border-radius: 200px;
+        display: block;
+        position: absolute;
+        background-color: tomato;
+        filter:opacity(30%);
+        transform: rotate(-45deg);
+        right: -15%;
+        top: -5%;
+    }
+    
+    .background_a
+    {
+        width: 500px;
+        height: 225px;
+        border-radius: 200px;
+        display: block;
+        position: absolute;
+        background-color: tomato;
+        filter:opacity(30%);
+        transform: rotate(135deg);
+        left: 10%;
+        top: 100%
+    }
+    
+.a 
+    {
+        height: 300px;
+        width: 300px;
+    }
+    
+    .button_a 
+        {
+        background-color: hsl(12, 88%, 59%);
+        color: white;
+        box-shadow: 0px 2px 5px 0px hsl(12, 88%, 59%);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 80px;
+        width: auto;
+        border: none;
+        margin-right: 2em;
+        visibility: hidden;
+        }
+        
+    .button_b 
+        {
+        background-color:hsl(12, 88%, 59%);
+        color: white;
+        box-shadow: 0px 2px 5px 0px hsl(12, 88%, 59%);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 80px;
+        width: auto;
+        border: none;
+        margin-left: 14em;
+        margin-top: 0.5em;
+        }
+    
+        .button_c 
+        {
+        background-color:hsl(12, 88%, 59%);
+        color: white;
+        box-shadow: 0px 2px 5px 0px hsl(12, 88%, 59%);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 80px;
+        width: auto;
+        border: none;
+        margin-top: 0.5em;
+        }
+        
+        .button_d 
+        {
+        background-color: white;
+        color:hsl(12, 88%, 59%);
+        box-shadow: 0px 2px 5px 0px white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 80px;
+        width: auto;
+        border: none;
+        }
+    
+    .button_a:hover, .button_b:hover, .button_c:hover, .button_d:hover 
+    {
+        background-color: hsl(12, 100%, 70%);  
+        color: white; 
+    } 
+    
+    .smicon
+    {
+        margin-left: 3px;
+        margin-right: 3px;
+    
+    }
+    
+    .smicon:hover
+    {
+        filter: invert(57%) sepia(46%) saturate(4836%) hue-rotate(332deg) brightness(102%) contrast(101%);
+    
+    }
+    
+    
+    a.button_d:hover
+    {
+        text-decoration: none;
+    
+    }
+    
+    a
+    {
+       color: whitesmoke;
+    }
+    
+    a:hover
+    
+    {
+        color: #ff6347;
+    }
+    .logo
+    {
+        filter: invert(100%) sepia(99%) saturate(0%) hue-rotate(168deg) brightness(104%) contrast(101%);
+    }
+    
+    input[type=text], [type=email], [type=password]
+            {
+               width: 75%;
+               box-sizing: border-box;
+                border-radius: 15px;
+                border-style: solid; 
+                border-color: rgb(216, 216, 216);   
+                padding-top: 5px;
+                padding-bottom: 5px;       
+            }
+      input[type=submit]
+       {
+                width: auto;
+                box-sizing: border-box;
+                border-radius: 15px;
+                background-color: tomato;  
+                font-size:16px;
+                border-style: none;
+                color: white;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 5px;
+                padding-bottom: 5px; 
+       }   
+       
+       input::placeholder
+    
+       {
+           margin-left: 5px;
+           color: tomato;
+       }
+       
+       form
+       {
+           display: inline-block;
+           position:relative;
+       }
+    
+    a:hover
+    {
+       text-decoration: none;  
+    } 
+    
+      h1
+        {
+            margin-left: 1em;
+            margin-right:1em;
+            font-size: 1.5em;
+            text-align: center;
+            left: auto;
+            right: auto;
+        }  
+    
+      h2
+        {
+            margin-left: 0.5em;
+            margin-right:0.5em;
+            float: top;
+        }  
+    
+        h2.a 
+        {
+            margin-left: auto;
+            margin-right:auto;
+        }
+       
+     p.thead 
+        {
+            margin-left: auto;
+            margin-right:auto;
+            margin-bottom: 3em;
+            color: grey;
+        }  
+     p.a 
+        {
+            margin-left: 6.6em;
+            margin-bottom: 3em;
+            margin-right: 9em;
+            color: grey;
+        }   
+       
+     p.b 
+        {
+            margin-left: 12em;
+            margin-bottom: 3em;
+            margin-right: 9em;
+            color: grey;
+        }   
+    
+    p.c 
+        {
+            margin-left: auto;
+            margin-bottom: 2em;
+            margin-top: 2em;
+            margin-right: auto;
+            color: grey;
+        } 
+     h5
+     {
+         margin-left: 12.5em;
+         margin-right: 10em;
+         font-size: 1em;
+         color: grey;
+     }
+    
+     h5.a
+     {
+         margin-left: 12em;
+         margin-right: 7.5em;
+         font-size: 1em;
+         color: grey;
+         
+         line-height: 1.5em;
+     }
+    
+     h4 {
+        padding-top: 0.2em;
+        padding-bottom: 0.2em; 
+        }
+     span.a 
+    
+     {
+         margin-right: 1em;
+         padding-left: 1em;
+         padding-right: 1em;
+         padding-top: 0.1em;
+         padding-bottom: 0.1em;
+         background-color: hsl(12, 88%, 59%);
+         border-radius: 20px;
+         color: white;
+         font-size: 1em;
+     }
+    
+     div.a 
+     {
+         top: -9em;
+         display: inline-block;
+         position: relative;
+     }
+    
+     div.bottom
+     {
+         background-color:hsl(12, 88%, 59%) ;
+         padding-top: 1.5em;
+         padding-bottom: 1.5em;
+         color: white;
+     }
+       
+ }
